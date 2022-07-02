@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #262424;
+    width: calc(100% - 33px);
+}
+
+canvas {
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result-container>div {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 5px 0;
+    color: white;
+    text-transform: capitalize;
+}
+
+#gender,
+#emotion,
+#age {
+    background: #4b88d7;
+}
+
+video {
+    width: 100%;
+}
+
+header {
+    background: #30cc6e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
